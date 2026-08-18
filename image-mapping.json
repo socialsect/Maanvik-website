@@ -1,0 +1,270 @@
+{
+  "$comment": "Image map for maanvik paper co. site. Current = stock placeholder (to be replaced with real product photos). Naming convention: keep same filename, drop your photo at public/images/<file> (or public/brand/<file>). Ideal: JPG/PNG, landscape, min 1200px wide, square-crop friendly where noted.",
+  "brand": [
+    {
+      "file": "/brand/primary.png",
+      "location": "Navbar (header, all pages) [src/components/navbar.tsx]",
+      "current": "brand logo (dark version) — provided by user",
+      "needed_for": "Logo on light background",
+      "display": "Logo, height ~40px (h-10), auto width. Transparent or light bg. Dark/coloured text variant."
+    },
+    {
+      "file": "/brand/white.png",
+      "location": "Footer (all pages) [src/components/footer.tsx]",
+      "current": "brand logo (white version) — provided by user",
+      "needed_for": "Logo on dark background",
+      "display": "Same logo in white, transparent bg."
+    },
+    {
+      "file": "/brand/symbol.png",
+      "location": "Browser favicon [src/app/layout.tsx metadata.icon]",
+      "current": "brand symbol — provided by user",
+      "needed_for": "Favicon / tab icon",
+      "display": "Square symbol/monogram only, 512x512px ideal."
+    },
+    {
+      "file": "/brand/tagline.png",
+      "location": "Not currently used on site (brand asset, keep in repo for future use)",
+      "current": "logo + tagline — provided by user",
+      "needed_for": "Optional: hero/about usage",
+      "display": "n/a — optional asset"
+    },
+    {
+      "file": "/brand/stacked.png",
+      "location": "Not currently used on site (brand asset)",
+      "current": "stacked logo layout — provided by user",
+      "needed_for": "Optional",
+      "display": "n/a — optional asset"
+    },
+    {
+      "file": "/brand/monochrome.png",
+      "location": "Not currently used on site (brand asset)",
+      "current": "monochrome logo — provided by user",
+      "needed_for": "Optional",
+      "display": "n/a — optional asset"
+    },
+    {
+      "file": "/brand/symbol_white.png",
+      "location": "Not currently used on site (brand asset)",
+      "current": "white symbol — provided by user",
+      "needed_for": "Optional",
+      "display": "n/a — optional asset"
+    },
+    {
+      "file": "/brand/wordmark.png",
+      "location": "Not currently used on site (brand asset)",
+      "current": "wordmark — provided by user",
+      "needed_for": "Optional",
+      "display": "n/a — optional asset"
+    },
+    {
+      "file": "/brand/symbol_mono.png",
+      "location": "Not currently used on site (brand asset)",
+      "current": "mono symbol — provided by user",
+      "needed_for": "Optional",
+      "display": "n/a — optional asset"
+    }
+  ],
+  "hero": [
+    {
+      "file": "/images/hero-labels.jpg",
+      "location": "Homepage hero, big right-side image [src/components/hero.tsx]",
+      "current": "Stock barcode close-up (Unsplash)",
+      "needed_for": "First impression — most visible image on site",
+      "subject": "Your real product hero shot. E.g. barcode label rolls or a printed label sheet in good lighting, on clean surface (white/light).",
+      "display": "Landscape, ~900x600px (aspect ~3:2), object-cover. Can be cropped."
+    }
+  ],
+  "about": [
+    {
+      "file": "/images/label-rolls.jpg",
+      "location": "Homepage about-preview section [src/components/about-preview.tsx]",
+      "current": "Stock printing machine (Unsplash)",
+      "needed_for": "About/workshop blurb image",
+      "subject": "Your workshop / printing unit / label rolls close-up — shows you're a real manufacturer.",
+      "display": "Landscape, ~800x600px, object-cover."
+    }
+  ],
+  "categories": [
+    {
+      "file": "/images/category-labels.jpg",
+      "location": "Homepage categories card 'Labels & Stickers' [src/data/products.ts]",
+      "current": "Stock sticker lot (Unsplash)",
+      "needed_for": "Category card image",
+      "subject": "Assorted self-adhesive labels / sticker sheets / label roll stack.",
+      "display": "Square-friendly (card ~400x400px)."
+    },
+    {
+      "file": "/images/category-ribbons.jpg",
+      "location": "Homepage categories card 'Ribbons' [src/data/products.ts]",
+      "current": "Stock tube photo (Unsplash)",
+      "needed_for": "Category card image",
+      "subject": "Thermal transfer ribbons — boxes of ribbon rolls or a ribbon roll close-up.",
+      "display": "Square-friendly."
+    },
+    {
+      "file": "/images/category-equipment.jpg",
+      "location": "Homepage categories card 'Barcode Equipment' [src/data/products.ts]",
+      "current": "Stock barcode-on-box (Unsplash)",
+      "needed_for": "Category card image",
+      "subject": "Barcode printers / scanners / hand labellers — your equipment units, one shot or a few arranged.",
+      "display": "Square-friendly."
+    },
+    {
+      "file": "/images/category-services.jpg",
+      "location": "Homepage categories card 'Printing Services' [src/data/products.ts]",
+      "current": "Stock printing machine (Unsplash)",
+      "needed_for": "Category card image",
+      "subject": "Your printing machine in action / printer + output rolls.",
+      "display": "Square-friendly."
+    }
+  ],
+  "products": [
+    {
+      "file": "/images/barcode-labels.jpg",
+      "location": "Product card + page: Barcode Labels; also reused on Amazon Invoice Stickers & Flipkart Invoice Stickers [src/data/products.ts]",
+      "current": "Stock barcode close-up (Unsplash)",
+      "needed_for": "Product image (shared by 3 products)",
+      "subject": "Close-up of your barcode label roll / printed barcode labels.",
+      "display": "Landscape, ~3:2. Also square-cropped on cards."
+    },
+    {
+      "file": "/images/thermal-stickers.jpg",
+      "location": "Product card + page: Thermal Stickers; reused on Mantes Billing Stickers [src/data/products.ts]",
+      "current": "Stock sticker lot (Unsplash)",
+      "needed_for": "Product image (shared by 2 products)",
+      "subject": "Thermal sticker rolls or sheets, smudge-free gloss look.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/direct-thermal.jpg",
+      "location": "Product card + page: Direct Thermal Stickers [src/data/products.ts]",
+      "current": "Stock sticker lot (Unsplash)",
+      "needed_for": "Product image",
+      "subject": "Direct thermal sticker roll (paper look, matte) — ideally next to a printed sample.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/washcare-labels.jpg",
+      "location": "Product card + page: Taffeta Washcare Labels [src/data/products.ts]",
+      "current": "Stock clothing tag (Unsplash)",
+      "needed_for": "Product image",
+      "subject": "Taffeta wash-care labels on roll or stitched into garment — white satin labels with printed care symbols.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/e-commerce-stickers.jpg",
+      "location": "Product cards + pages: Amazon Printing Stickers & Flipkart Printing Stickers [src/data/products.ts]",
+      "current": "Stock box-with-sticker (Unsplash)",
+      "needed_for": "Product image (shared by 2 products)",
+      "subject": "Shipping stickers / courier label sheets (A4) or box label application close-up.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/wax-ribbons.jpg",
+      "location": "Product card + page: Wax Ribbons; reused on Wax Resin Ribbons [src/data/products.ts]",
+      "current": "Stock tube photo (Unsplash)",
+      "needed_for": "Product image (shared by 2 products)",
+      "subject": "Wax ribbon roll close-up (black/shiny band wound on spool), or ribbon boxes.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/barcode-printers.jpg",
+      "location": "Product card + page: Barcode Printers [src/data/products.ts]",
+      "current": "Stock printing machine (Unsplash)",
+      "needed_for": "Product image",
+      "subject": "Barcode/label printer unit you stock or install (e.g. TSC/Zebra-type), clean product shot.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/barcode-scanners.jpg",
+      "location": "Product card + page: Barcode Scanners [src/data/products.ts]",
+      "current": "Stock barcode-on-box (Unsplash)",
+      "needed_for": "Product image",
+      "subject": "Handheld barcode scanner — clean product shot, ideally scanning a barcode.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/hand-labellers.jpg",
+      "location": "Product card + page: Hand Labellers [src/data/products.ts]",
+      "current": "Stock label organizer (Unsplash)",
+      "needed_for": "Product image",
+      "subject": "Hand labeller gun with a pricing label in hand / tags fixed to products.",
+      "display": "Landscape ~3:2."
+    },
+    {
+      "file": "/images/printing-service.jpg",
+      "location": "Product card + page: Barcode Printing Service [src/data/products.ts]",
+      "current": "Stock printing machine (Unsplash)",
+      "needed_for": "Product image",
+      "subject": "Barcode printing machine running in your unit, or hands feeding label roll.",
+      "display": "Landscape ~3:2."
+    }
+  ],
+  "gallery": [
+    {
+      "file": "/images/gallery-1.jpg",
+      "location": "Gallery page item 1: 'Barcode Labels' [src/app/gallery/page.tsx]",
+      "current": "Stock barcode close-up (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Barcode labels close-up / roll.",
+      "display": "SQUARE crop strongly recommended (tile is aspect-square, 1:1, ~400px)."
+    },
+    {
+      "file": "/images/gallery-2.jpg",
+      "location": "Gallery page item 2: 'Thermal Stickers' [src/app/gallery/page.tsx]",
+      "current": "Stock sticker lot (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Thermal stickers rolls/sheets.",
+      "display": "SQUARE 1:1."
+    },
+    {
+      "file": "/images/gallery-3.jpg",
+      "location": "Gallery page item 3: 'Washcare Labels' [src/app/gallery/page.tsx]",
+      "current": "Stock clothing tag (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Taffeta washcare labels on roll / in garment.",
+      "display": "SQUARE 1:1."
+    },
+    {
+      "file": "/images/gallery-4.jpg",
+      "location": "Gallery page item 4: 'Wax Ribbons' [src/app/gallery/page.tsx]",
+      "current": "Stock tube photo (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Ribbon roll / ribbon boxes.",
+      "display": "SQUARE 1:1."
+    },
+    {
+      "file": "/images/gallery-5.jpg",
+      "location": "Gallery page item 5: 'Barcode Printers' [src/app/gallery/page.tsx]",
+      "current": "Stock printing machine (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Barcode printer unit.",
+      "display": "SQUARE 1:1."
+    },
+    {
+      "file": "/images/gallery-6.jpg",
+      "location": "Gallery page item 6: 'E-commerce Stickers' [src/app/gallery/page.tsx]",
+      "current": "Stock box-with-sticker (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Shipping/courier sticker sheets or box labelling.",
+      "display": "SQUARE 1:1."
+    },
+    {
+      "file": "/images/gallery-7.jpg",
+      "location": "Gallery page item 7: 'Invoice Stickers' [src/app/gallery/page.tsx]",
+      "current": "Stock barcode-on-box (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Invoice stickers sheets with barcode + invoice text.",
+      "display": "SQUARE 1:1."
+    },
+    {
+      "file": "/images/gallery-8.jpg",
+      "location": "Gallery page item 8: 'Hand Labellers' [src/app/gallery/page.tsx]",
+      "current": "Stock label organizer (Unsplash)",
+      "needed_for": "Gallery tile",
+      "subject": "Hand labeller + tagged products.",
+      "display": "SQUARE 1:1."
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+MAANVIK PAPER CO. — HOMEPAGE CONTENT & LAYOUT
+=================================================
+
+Purpose
+-------
+Build a modern, premium B2B website homepage for Maanvik Paper Co.
+The site should feel trustworthy, industrial, clean, and contemporary.
+Use the reference websites only as general industry inspiration; do not copy their
+design, text, assets, or layout.
+
+SOURCE INFORMATION
+------------------
+Company: Maanvik Paper Co.
+Established: January 2026
+Business: Manufacturing of self-adhesive labels and stickers
+Stated strengths:
+- Strong adhesive
+- Smudge-free printing
+- Best quality
+- Client satisfaction
+Market: PAN India
+Location: M155, Sector 2, Bawana Industrial Area, Delhi
+Phone: 9996989921 / 7428523381
+Email: Manvikpaperco@gmail.com
+Business hours: Monday-Saturday, 9 AM-6 PM
+Sunday: Closed
+
+IMPORTANT CONTENT RULE
+----------------------
+Do not invent certifications, clients, years of experience, manufacturing
+capabilities, product specifications, industries, awards, or other claims that
+the supplied information does not support.
+
+HOMEPAGE STRUCTURE
+==================
+
+1. NAVBAR
+---------
+Left:
+- Maanvik Paper Co. logo
+
+Navigation:
+- Home
+- About
+- Products
+- Services
+- Gallery
+- Contact
+
+Right:
+- Primary CTA: Get a Quote
+
+Behavior:
+- Sticky/fixed navbar on scroll
+- Clean desktop navigation
+- Mobile hamburger menu
+- Navbar should become slightly more compact / visually distinct on scroll
+
+2. HERO SECTION
+---------------
+Visual direction:
+- Large, premium hero section
+- Strong typography
+- High-quality label/barcode/product imagery
+- Subtle motion only; no excessive animation
+- Clear visual hierarchy
+
+Headline:
+"Labels That Stick. Quality That Shows."
+
+Supporting copy:
+"Reliable self-adhesive labels, barcode solutions and printing products
+for businesses across India."
+
+Primary CTA:
+"Explore Products"
+
+Secondary CTA:
+"Get a Quote"
+
+Small supporting line:
+"Self-Adhesive Labels & Barcode Solutions"
+
+Hero visual:
+Use a high-quality product-oriented visual showing labels, barcode rolls,
+printing output, or related barcode/label equipment.
+Do not use random generic corporate stock photography.
+
+3. TRUST / USP STRIP
+--------------------
+Four compact items:
+
+01 — Strong Adhesion
+"Reliable sticking performance for everyday labelling needs."
+
+02 — Smudge-Free Printing
+"Clear, clean printing designed for easy reading and scanning."
+
+03 — Quality Focused
+"Products selected with quality and consistency in mind."
+
+04 — PAN India
+"Serving customers across India."
+
+Design:
+- Horizontal strip on desktop
+- 2x2 or horizontal scroll on mobile
+- Minimal icons
+- Strong typography
+- Lots of whitespace
+
+4. INTRO / ABOUT SECTION
+------------------------
+Eyebrow:
+"ABOUT MAANVIK"
+
+Heading:
+"Built Around Better Labelling"
+
+Copy:
+"Maanvik Paper Co. is a Delhi-based manufacturer and supplier of
+self-adhesive labels, barcode labels, thermal printing products and
+related barcode equipment.
+
+Founded in January 2026, the company focuses on reliable products,
+strong adhesion, clear printing and consistent quality, with customer
+satisfaction at the centre of its approach."
+
+CTA:
+"Learn More About Us"
+
+Visual:
+- Product/factory image on one side
+- Text on the other
+- Editorial, premium layout
+- Avoid a generic corporate “about us” card
+
+5. PRODUCT CATEGORIES
+---------------------
+Eyebrow:
+"OUR PRODUCTS"
+
+Heading:
+"Everything You Need to Label, Print & Identify"
+
+Supporting copy:
+"Explore our range of labels, printing consumables and barcode equipment."
+
+Create four major category cards:
+
+A. Labels & Stickers
+Description:
+"Barcode labels, thermal stickers, washcare labels and other
+self-adhesive labelling solutions."
+
+Includes:
+- Barcode Labels
+- Thermal Stickers
+- Direct Thermal Stickers
+- Taffeta Washcare Labels
+- Amazon Printing Stickers
+- Flipkart Printing Stickers
+- Amazon Invoice Stickers
+- Flipkart Invoice Stickers
+- Mantes Billing Stickers
+
+B. Ribbons
+Description:
+"Thermal transfer ribbons for reliable and clear barcode printing."
+
+Includes:
+- Wax Ribbons
+- Wax Resin Ribbons
+
+C. Barcode Equipment
+Description:
+"Essential equipment for barcode printing, scanning and labelling."
+
+Includes:
+- Barcode Printers
+- Barcode Scanners
+- Hand Labellers
+
+D. Printing Services
+Description:
+"Barcode printing services for business and labelling requirements."
+
+Includes:
+- Barcode Printing Service
+
+CTA below categories:
+"View All Products"
+
+Design:
+- Product/category cards with strong imagery
+- Hover interaction
+- Category label
+- Short description
+- Arrow / View Products interaction
+- Keep cards visually consistent
+
+6. FEATURED PRODUCTS
+---------------------
+Eyebrow:
+"PRODUCT RANGE"
+
+Heading:
+"Solutions for Everyday Labelling Needs"
+
+Show a curated selection of 6-8 products rather than every product.
+
+Suggested featured products:
+- Barcode Labels
+- Thermal Stickers
+- Direct Thermal Stickers
+- Wax Ribbons
+- Barcode Printers
+- Barcode Scanners
+- Taffeta Washcare Labels
+- Hand Labellers
+
+Each card:
+- Product image
+- Product name
+- One short description
+- "View Product" or "Enquire Now"
+
+Do not add technical specifications unless supplied later.
+
+7. WHY CHOOSE MAANVIK
+---------------------
+Eyebrow:
+"WHY MAANVIK"
+
+Heading:
+"Focused on Quality. Built for Reliability."
+
+Intro:
+"Our approach is simple: provide dependable labelling and barcode
+solutions while keeping product quality and customer satisfaction at
+the centre."
+
+Four feature blocks:
+
+01 — Strong Adhesion
+"Designed around reliable label application."
+
+02 — Smudge-Free Printing
+"Clear printing that helps maintain readability and presentation."
+
+03 — Quality Products
+"A focused range of labels, consumables and barcode equipment."
+
+04 — Customer Satisfaction
+"Focused on dependable service and meeting customer requirements."
+
+Design:
+- Numbered blocks or large typographic cards
+- Use subtle line/icon graphics
+- Avoid fake statistics
+
+8. APPLICATIONS / USE CASES
+---------------------------
+Eyebrow:
+"APPLICATIONS"
+
+Heading:
+"Made for Practical Labelling Needs"
+
+Use only applications directly supported by the supplied product range.
+
+Cards:
+- Barcode Identification
+- Thermal Printing
+- E-commerce Shipping
+- Invoice Labelling
+- Washcare Labelling
+- Product Labelling
+
+Short intro:
+"From barcode identification to e-commerce and invoice labelling,
+Maanvik provides products for a range of everyday printing and labelling
+requirements."
+
+IMPORTANT:
+Do not claim that Maanvik serves specific industries unless the client
+later confirms them.
+
+9. CTA / ENQUIRY BANNER
+-----------------------
+Large visual section.
+
+Heading:
+"Looking for the Right Labelling Solution?"
+
+Copy:
+"Tell us what you need and our team can help you find the right product
+or printing solution for your requirement."
+
+Primary CTA:
+"Get a Quote"
+
+Secondary CTA:
+"Contact Us"
+
+Visual:
+- Dark/high-contrast section
+- Product imagery or abstract label/barcode graphic
+- Strong typography
+- Keep it simple and premium
+
+10. CONTACT PREVIEW
+-------------------
+Eyebrow:
+"GET IN TOUCH"
+
+Heading:
+"Let's Talk About Your Requirements"
+
+Display:
+
+Phone:
+9996989921
+7428523381
+
+Email:
+Manvikpaperco@gmail.com
+
+Address:
+M155, Sector 2,
+Bawana Industrial Area,
+Delhi
+
+Business Hours:
+Monday-Saturday
+9:00 AM-6:00 PM
+
+Sunday:
+Closed
+
+CTA:
+"Contact Us"
+
+Also include:
+- WhatsApp button
+- Google Maps link/embedded map once the exact location is supplied
+
+11. FOOTER
+----------
+Logo:
+Maanvik Paper Co.
+
+Tagline:
+"Self-Adhesive Labels & Barcode Solutions"
+
+Columns:
+
+Company
+- About
+- Products
+- Services
+- Gallery
+- Contact
+
+Products
+- Barcode Labels
+- Thermal Stickers
+- Ribbons
+- Barcode Equipment
+
+Contact
+- 9996989921
+- 7428523381
+- Manvikpaperco@gmail.com
+- M155, Sector 2, Bawana Industrial Area, Delhi
+
+Social:
+- Instagram: https://www.instagram.com/manvikpaper
+- Facebook: https://www.facebook.com/share/17yyuQmxq7/
+
+Bottom:
+"© 2026 Maanvik Paper Co. All rights reserved."
+
+DESIGN SYSTEM
+=============
+Overall style:
+- Modern industrial
+- Premium B2B
+- Minimal
+- Clean
+- Trustworthy
+- Product-focused
+
+Avoid:
+- Generic corporate templates
+- Excessive gradients
+- Excessive glassmorphism
+- Huge rounded cards everywhere
+- Excessive animations
+- Fake statistics
+- Fake testimonials
+- Fake certifications
+- Fake client logos
+- Unverified claims
+
+Suggested base palette:
+- Background: #F7F7F5
+- Primary text: #111111
+- Secondary text: #5F6368
+- Borders: #E5E5E2
+- Accent: choose a strong professional blue after logo exploration
+
+Typography:
+- Use Geist, Inter, or Manrope
+- Large editorial-style headings
+- Strong contrast between headings and body text
+- Comfortable line height
+- Generous whitespace
+
+Visual language:
+- Real product photography wherever available
+- Close-up label/barcode imagery
+- Clean product cutouts
+- Subtle barcode/label-inspired graphic details
+- Thin borders
+- Structured grids
+- Strong alignment
+
+ANIMATION
+=========
+Use subtle, purposeful motion:
+- Fade/slide section reveals
+- Product card hover states
+- Smooth navbar transition
+- Subtle image movement
+- Button hover transitions
+
+Do not over-animate the page.
+
+RESPONSIVE REQUIREMENTS
+=======================
+Desktop:
+- Spacious editorial layout
+- Large hero
+- Multi-column product grids
+- Sticky navbar
+
+Tablet:
+- Reduce typography and spacing
+- 2-column product grids
+
+Mobile:
+- Excellent typography and spacing
+- Hamburger navigation
+- Full-width CTAs
+- 1-column product cards where appropriate
+- No horizontal overflow
+- Keep contact and WhatsApp actions easy to access
+
+TECHNICAL DIRECTION FOR OPENCODE
+================================
+Framework:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- App Router
+
+Recommended:
+- next/image for images
+- Lucide icons
+- Motion / Framer Motion for restrained animations
+- Reusable components
+- Data-driven product cards and product pages
+- Proper metadata and SEO
+- Accessible semantic HTML
+- Mobile-first responsive design
+
+Suggested structure:
+
+src/
+  app/
+    page.tsx
+    about/page.tsx
+    products/page.tsx
+    products/[slug]/page.tsx
+    services/page.tsx
+    gallery/page.tsx
+    contact/page.tsx
+
+  components/
+    navbar.tsx
+    footer.tsx
+    hero.tsx
+    section-heading.tsx
+    product-card.tsx
+    product-grid.tsx
+    usp-strip.tsx
+    enquiry-form.tsx
+
+  data/
+    products.ts
+    site.ts
+
+public/
+  images/
+  logo/
+
+IMPLEMENTATION PRIORITY
+=======================
+1. Establish visual identity and typography.
+2. Build navbar/footer/global layout.
+3. Build hero.
+4. Build USP strip.
+5. Build About section.
+6. Build product categories.
+7. Build featured products.
+8. Build Why Maanvik.
+9. Build applications/use cases.
+10. Build CTA.
+11. Build contact preview.
+12. Add responsive behavior.
+13. Add subtle animations.
+14. Add SEO/accessibility/performance polish.
+
+CONTENT SAFETY / ACCURACY
+==========================
+The client is a new business established in January 2026.
+Do not describe it as having decades of experience or being an established
+industry leader unless new information is supplied.
+
+Do not invent:
+- Certifications
+- Client names/logos
+- Testimonials
+- Product specifications
+- Factory size
+- Production capacity
+- Number of employees
+- Years of experience
+- Awards
+- Industry coverage beyond what is confirmed
+- Geographic claims beyond PAN India
+
+When information is missing, design the section so the real information
+can be added later instead of filling the gap with invented content.
+
+FINAL DESIGN GOAL
+=================
+The finished homepage should feel like a modern Indian B2B manufacturing
+brand that could confidently send the website to a prospective customer.
+
+It should communicate:
+QUALITY
+RELIABILITY
+PRECISION
+PRODUCT RANGE
+EASY ENQUIRY
+
+The website should look custom-designed, not AI-generated or template-like.
