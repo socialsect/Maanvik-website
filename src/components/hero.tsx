@@ -37,7 +37,7 @@ const ringImages = [
   },
 ];
 
-const RING_RADIUS = 340;
+const RING_RADIUS = 300;
 const RING_STEP = 360 / ringImages.length;
 
 export function Hero() {
@@ -124,7 +124,7 @@ export function Hero() {
                   return (
                     <div
                       key={img.src}
-                      className="absolute left-1/2 top-1/2 w-52 xl:w-60 aspect-[3/2]"
+                      className="absolute left-1/2 top-1/2 w-48 xl:w-56 aspect-[3/2]"
                       style={{
                         transform: `translate(-50%, -50%) rotateY(${angle}deg) translateZ(${RING_RADIUS}px)`,
                         opacity,
