@@ -19,6 +19,14 @@ const galleryItems = [
   { title: "Hand Labellers", category: "Equipment", image: "/images/gallery-8.jpg" },
 ];
 
+const factoryItems = [
+  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-1.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-2.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-3.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-4.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-5.jpeg" },
+];
+
 export default function GalleryPage() {
   return (
     <>
@@ -30,6 +38,51 @@ export default function GalleryPage() {
             heading="Our Products in Detail"
             description="A look at our range of self-adhesive labels, barcode stickers, ribbons and equipment."
           />
+        </div>
+      </section>
+
+      {/* Featured Factory */}
+      <section className="py-20 lg:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+          <SectionHeading
+            eyebrow="Our Factory"
+            heading="Inside the Production Unit"
+            description="A look at our manufacturing facility behind the labels, ribbons and printing services we deliver."
+          />
+          <div className="space-y-4">
+            <div className="group relative aspect-[16/9] lg:aspect-[21/8] bg-surface-alt border border-border overflow-hidden hover:border-accent/30 transition-all">
+              <Image
+                src={factoryItems[4].image}
+                alt="Our production unit"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                sizes="(max-width: 1024px) 100vw, 75vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 lg:p-6">
+                <p className="text-sm lg:text-base font-medium text-white">
+                  Our Production Unit
+                </p>
+                <p className="text-xs text-white/70">Factory</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              {factoryItems.slice(0, 4).map((item, i) => (
+                <div
+                  key={i}
+                  className="group aspect-square bg-surface-alt border border-border overflow-hidden hover:border-accent/30 transition-all relative"
+                >
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 50vw, 25vw"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
