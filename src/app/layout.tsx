@@ -38,6 +38,21 @@ export const metadata: Metadata = {
       "Reliable self-adhesive labels, barcode solutions and printing products for businesses across India.",
     type: "website",
     locale: "en_IN",
+    images: [
+      {
+        url: "/images/og-share.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Maanvik Paper Co. — Self-Adhesive Labels & Barcode Solutions",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Maanvik Paper Co. — Self-Adhesive Labels & Barcode Solutions",
+    description:
+      "Reliable self-adhesive labels, barcode solutions and printing products for businesses across India.",
+    images: ["/images/og-share.jpg"],
   },
   icons: {
     icon: "/brand/symbol.png",
