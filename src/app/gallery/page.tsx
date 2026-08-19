@@ -20,11 +20,11 @@ const galleryItems = [
 ];
 
 const factoryItems = [
-  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-1.jpeg" },
-  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-2.jpeg" },
-  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-3.jpeg" },
-  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-4.jpeg" },
-  { title: "Factory", category: "Production Unit", image: "/images/factory/factory-5.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory-1.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory-2.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory-3.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory-4.jpeg" },
+  { title: "Factory", category: "Production Unit", image: "/images/factory-5.jpeg" },
 ];
 
 export default function GalleryPage() {
