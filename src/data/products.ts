@@ -41,7 +41,7 @@ export const categories: Category[] = [
     description:
       "Thermal transfer ribbons for reliable and clear barcode printing.",
     includes: ["Wax Ribbons", "Wax Resin Ribbons"],
-    image: "/images/category-ribbons.jpg",
+    image: "/images/ribbons-category.jpg",
   },
   {
     slug: "barcode-equipment",
