@@ -128,6 +128,7 @@ export function Footer() {
           <p className="text-xs text-white/40">
             © 2026 {site.name} All rights reserved.
           </p>
+          <p className="text-xs text-white/40">GST: 07GFQPS4908E1ZY</p>
           <p className="text-xs text-white/40">{site.location}</p>
         </div>
       </div>
