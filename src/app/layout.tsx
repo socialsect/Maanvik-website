@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { WhatsAppButton } from "@/components/whatsapp-button";
+import { SkipToContent } from "@/components/skip-to-content";
 import { site } from "@/data/site";
 
 const SITE_URL = "https://maanvikpaperco.com";
@@ -159,6 +161,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="canonical" href={SITE_URL} />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -173,9 +177,11 @@ export default function RootLayout({
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <SkipToContent />
         <Navbar />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );
