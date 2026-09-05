@@ -63,10 +63,7 @@ export const metadata: Metadata = {
     images: ["/images/og-share.jpg"],
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/brand/symbol.png", type: "image/png", sizes: "any" },
-    ],
+    icon: "/brand/symbol.png",
     apple: "/brand/symbol.png",
   },
   manifest: "/manifest.json",
