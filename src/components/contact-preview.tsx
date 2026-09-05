@@ -97,7 +97,7 @@ export function ContactPreview() {
                 Contact Us
               </Link>
               <a
-                href={`https://wa.me/${site.phone[1]}`}
+                href={`https://wa.me/91${site.phone[0]}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-border text-sm font-medium text-primary hover:border-primary transition-colors"
