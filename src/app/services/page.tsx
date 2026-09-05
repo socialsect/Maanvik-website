@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import { SectionHeading } from "@/components/section-heading";
 import { CtaBanner } from "@/components/cta-banner";
+import { Breadcrumb } from "@/components/breadcrumb";
 import { Printer, ScanBarcode, Tag } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Professional barcode printing services from Maanvik Paper Co. for businesses across India.",
+    "Professional barcode printing services, custom label printing and e-commerce label printing from Maanvik Paper Co. for businesses across India.",
+  openGraph: {
+    title: "Services | Maanvik Paper Co.",
+    description:
+      "Professional barcode printing services, custom label printing and e-commerce label printing.",
+    type: "website",
+  },
 };
 
 const services = [
@@ -35,7 +42,13 @@ export default function ServicesPage() {
     <>
       {/* Hero */}
       <section className="pt-32 lg:pt-40 pb-16 lg:pb-20 bg-surface border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Services" },
+            ]}
+          />
           <SectionHeading
             eyebrow="Services"
             heading="Professional Printing Solutions"

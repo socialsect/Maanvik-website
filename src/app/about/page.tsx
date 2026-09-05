@@ -1,13 +1,20 @@
 import type { Metadata } from "next";
 import { SectionHeading } from "@/components/section-heading";
 import { CtaBanner } from "@/components/cta-banner";
+import { Breadcrumb } from "@/components/breadcrumb";
 import { site } from "@/data/site";
 import { CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about Maanvik Paper Co., a Delhi-based manufacturer of self-adhesive labels and barcode solutions.",
+    "Learn about Maanvik Paper Co., a Delhi-based manufacturer of self-adhesive labels and barcode solutions. Founded in January 2026.",
+  openGraph: {
+    title: "About | Maanvik Paper Co.",
+    description:
+      "Learn about Maanvik Paper Co., a Delhi-based manufacturer of self-adhesive labels and barcode solutions.",
+    type: "website",
+  },
 };
 
 const strengths = [
@@ -23,7 +30,13 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section className="pt-32 lg:pt-40 pb-16 lg:pb-20 bg-surface border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "About" },
+            ]}
+          />
           <SectionHeading
             eyebrow="About Us"
             heading="Built Around Better Labelling"

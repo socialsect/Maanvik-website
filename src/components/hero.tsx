@@ -118,7 +118,6 @@ export function Hero() {
                   const raw = ((i - active) % ringImages.length + ringImages.length) % ringImages.length;
                   const rel = raw > ringImages.length / 2 ? raw - ringImages.length : raw;
                   const angle = rel * RING_STEP;
-                  const rad = (angle * Math.PI) / 180;
                   const hidden = Math.abs(rel) >= 3;
                   const opacity = hidden ? 0 : Math.abs(rel) === 0 ? 1 : Math.abs(rel) === 1 ? 0.9 : 0.4;
                   return (

@@ -26,10 +26,11 @@ export function EnquiryForm() {
       <form onSubmit={handleSubmit} className="space-y-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <div>
-            <label className="block text-xs font-medium text-secondary mb-1.5">
+            <label htmlFor="enquiry-name" className="block text-xs font-medium text-secondary mb-1.5">
               Name *
             </label>
             <input
+              id="enquiry-name"
               type="text"
               required
               value={formState.name}
@@ -41,10 +42,11 @@ export function EnquiryForm() {
             />
           </div>
           <div>
-            <label className="block text-xs font-medium text-secondary mb-1.5">
+            <label htmlFor="enquiry-company" className="block text-xs font-medium text-secondary mb-1.5">
               Company
             </label>
             <input
+              id="enquiry-company"
               type="text"
               value={formState.company}
               onChange={(e) =>
@@ -58,10 +60,11 @@ export function EnquiryForm() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           <div>
-            <label className="block text-xs font-medium text-secondary mb-1.5">
+            <label htmlFor="enquiry-phone" className="block text-xs font-medium text-secondary mb-1.5">
               Phone *
             </label>
             <input
+              id="enquiry-phone"
               type="tel"
               required
               value={formState.phone}
@@ -73,10 +76,11 @@ export function EnquiryForm() {
             />
           </div>
           <div>
-            <label className="block text-xs font-medium text-secondary mb-1.5">
+            <label htmlFor="enquiry-email" className="block text-xs font-medium text-secondary mb-1.5">
               Email
             </label>
             <input
+              id="enquiry-email"
               type="email"
               value={formState.email}
               onChange={(e) =>
@@ -89,10 +93,11 @@ export function EnquiryForm() {
         </div>
 
         <div>
-          <label className="block text-xs font-medium text-secondary mb-1.5">
+          <label htmlFor="enquiry-product" className="block text-xs font-medium text-secondary mb-1.5">
             Product Interest
           </label>
           <select
+            id="enquiry-product"
             value={formState.product}
             onChange={(e) =>
               setFormState({ ...formState, product: e.target.value })
@@ -109,10 +114,11 @@ export function EnquiryForm() {
         </div>
 
         <div>
-          <label className="block text-xs font-medium text-secondary mb-1.5">
+          <label htmlFor="enquiry-message" className="block text-xs font-medium text-secondary mb-1.5">
             Message
           </label>
           <textarea
+            id="enquiry-message"
             rows={4}
             value={formState.message}
             onChange={(e) =>

@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { SectionHeading } from "@/components/section-heading";
+import { Breadcrumb } from "@/components/breadcrumb";
 
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "View our range of self-adhesive labels, barcode stickers and printing products.",
+    "View our range of self-adhesive labels, barcode stickers, printing products and our manufacturing facility in Delhi.",
+  openGraph: {
+    title: "Gallery | Maanvik Paper Co.",
+    description:
+      "View our range of self-adhesive labels, barcode stickers, printing products and our manufacturing facility.",
+    type: "website",
+  },
 };
 
 const galleryItems = [
@@ -32,7 +39,13 @@ export default function GalleryPage() {
     <>
       {/* Hero */}
       <section className="pt-32 lg:pt-40 pb-16 lg:pb-20 bg-surface border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Gallery" },
+            ]}
+          />
           <SectionHeading
             eyebrow="Gallery"
             heading="Our Products in Detail"

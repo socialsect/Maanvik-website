@@ -6,7 +6,7 @@ export const site = {
   established: "January 2026",
   location: "M155, Sector 2, Bawana Industrial Area, Delhi",
   phone: ["9996989921", "7428523381"],
-  email: "Manvikpaperco@gmail.com",
+  email: "Maanvikpaperco@gmail.com",
   hours: {
     weekdays: "Monday–Saturday",
     time: "9:00 AM – 6:00 PM",
@@ -14,7 +14,7 @@ export const site = {
   },
   social: {
     instagram: "https://www.instagram.com/manvikpaper",
-    facebook: "https://www.facebook.com/share/17yyuQmxq7/",
+    facebook: "https://www.facebook.com/people/Maanvik-Paper-Co/61576897890147/",
   },
   navigation: [
     { label: "Home", href: "/" },

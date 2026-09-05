@@ -14,9 +14,6 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
-.ftr-{
-  background-color: #111111;
-}
 
 *,
 *::before,
@@ -41,13 +38,11 @@ body {
   color: white;
 }
 
-/* Focus visible styles */
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }

@@ -1,0 +1,16 @@
+{
+  "name": "Maanvik Paper Co.",
+  "short_name": "Maanvik",
+  "description": "Self-adhesive labels, barcode solutions and printing products for businesses across India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F7F5",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "/brand/symbol.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

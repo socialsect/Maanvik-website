@@ -2,12 +2,20 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getProductBySlug, getProductsByCategory } from "@/data/products";
+import { getProductBySlug, getProductsByCategory, products } from "@/data/products";
 import { ProductCard } from "@/components/product-card";
-import { ArrowLeft } from "lucide-react";
+import { Breadcrumb } from "@/components/breadcrumb";
+
+const SITE_URL = "https://maanvikpaperco.com";
 
 interface Props {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -17,6 +25,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: product.name,
     description: product.description,
+    openGraph: {
+      title: `${product.name} | Maanvik Paper Co.`,
+      description: product.description,
+      type: "website",
+      url: `${SITE_URL}/products/${product.slug}`,
+      images: [
+        {
+          url: product.image,
+          width: 1200,
+          height: 630,
+          alt: product.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${product.name} | Maanvik Paper Co.`,
+      description: product.description,
+      images: [product.image],
+    },
   };
 }
 
@@ -38,20 +66,50 @@ export default async function ProductDetailPage({ params }: Props) {
       : "printing-services"
   ).filter((p) => p.slug !== product.slug);
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.description,
+    image: `${SITE_URL}${product.image}`,
+    brand: {
+      "@type": "Brand",
+      name: "Maanvik Paper Co.",
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "Maanvik Paper Co.",
+    },
+    category: product.category,
+    offers: {
+      "@type": "Offer",
+      availability: "https://schema.org/InStock",
+      priceCurrency: "INR",
+      seller: {
+        "@type": "Organization",
+        name: "Maanvik Paper Co.",
+      },
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       {/* Header */}
       <section className="pt-32 lg:pt-40 pb-12 bg-surface border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link
-            href="/products"
-            className="inline-flex items-center gap-2 text-sm text-secondary hover:text-primary transition-colors mb-6"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Products
-          </Link>
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Products", href: "/products" },
+              { label: product.name },
+            ]}
+          />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mt-6">
             {/* Product image */}
             <div className="aspect-[4/3] bg-surface-alt border border-border relative overflow-hidden">
               <Image
