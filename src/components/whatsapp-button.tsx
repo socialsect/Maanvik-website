@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 export function WhatsAppButton() {
   return (
     <a
-      href={`https://wa.me/${site.phone[0]}?text=Hi%2C%20I'm%20interested%20in%20your%20products`}
+      href={`https://wa.me/${site.phone[1]}?text=Hi%2C%20I'm%20interested%20in%20your%20products`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
